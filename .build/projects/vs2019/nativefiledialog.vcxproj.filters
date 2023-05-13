@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="submodules">
+      <UniqueIdentifier>{48444C85-34FC-8DD2-9D03-672E89DA28C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\nativefiledialog">
+      <UniqueIdentifier>{FBECC6F4-67FA-F4DA-F0E0-F0C55CEDC091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="submodules\nativefiledialog\src">
+      <UniqueIdentifier>{9F5D4FA8-0B41-5EE8-1444-8C2480A62439}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\submodules\nativefiledialog\src\nfd_cocoa.m">
+      <Filter>submodules\nativefiledialog\src</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\submodules\nativefiledialog\src\nfd_common.c">
+      <Filter>submodules\nativefiledialog\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\submodules\nativefiledialog\src\nfd_win.cpp">
+      <Filter>submodules\nativefiledialog\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\submodules\nativefiledialog\src\nfd_gtk.c">
+      <Filter>submodules\nativefiledialog\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
